@@ -1,0 +1,37 @@
+{
+  "name": "ytify",
+  "version": "1.0.0",
+  "description": "A web application to convert YouTube playlists into personal Spotify playlists.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "prepare": "husky"
+  },
+  "keywords": [
+    "YouTube",
+    "Spotify",
+    "playlist",
+    "music"
+  ],
+  "author": "Rajat Bansal",
+  "license": "MIT",
+  "devDependencies": {
+    "husky": "^9.1.6",
+    "nodemon": "^3.1.7"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "axios": "^1.7.7",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.7.0",
+    "morgan": "^1.10.0",
+    "querystring": "^0.2.1",
+    "youtube-sr": "^4.3.11"
+  }
+}

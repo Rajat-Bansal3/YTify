@@ -1,0 +1,7 @@
+node_modules;
+
+logs.env;
+
+Dockerfile.dockerignore.git.gitignore;
+
+npm - debug.log;

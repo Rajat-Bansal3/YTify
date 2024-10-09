@@ -1,0 +1,44 @@
+# Node modules
+**/node_modules/
+
+# Build output
+**/build/
+**/dist/
+
+# Environment files
+**/.env
+**/.env.local
+**/.env.development
+**/.env.production
+**/.env.test
+
+# Logs
+**/logs/
+*.log
+
+# Temporary files
+**/tmp/
+**/temp/
+
+# IDE configurations
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# NPM packages
+package-lock.json
+yarn.lock
+
+# Coverage directory used by tools like istanbul
+**/coverage/
+
+# Storybook build outputs
+out/
+storybook-static/
+
+# Any other generated files or directories
+**/public/static/
+**/public/assets/
